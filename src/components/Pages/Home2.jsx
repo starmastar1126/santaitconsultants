@@ -17,33 +17,33 @@ import { pageTitle } from '../../helpers/PageTitle.js';
 const serviceData = [
   {
     iconUrl: '/images/icons/service_icon_1.svg',
-    title: 'Accounting and Bookkeeping',
+    title: 'Software Development',
     subTitle:
-      'Services related to financial record-keeping, bookkeeping, preparation and action.',
+      'We design and develop tailored web and mobile applications to meet your unique business needs, using modern technologies like React and Node.js.',
     imgUrl: '/images/service_1.jpg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_2.svg',
-    title: 'IT Support and Consulting',
+    title: 'Cybersecurity Solutions',
     subTitle:
-      'Providing technical support, network setup, software installation system.',
+      'We provide comprehensive security audits, threat detection, and compliance services to protect your business from cyber risks and ensure data privacy.',
     imgUrl: '/images/service_2.jpeg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_3.svg',
-    title: 'Marketing and Advertising',
+    title: 'Managed IT Services',
     subTitle:
-      'Services that help businesses create and execute market strategies.',
+      'Our ongoing support and infra structure management ensure your systems run smoothly, with proactive monitoring and fast issue resolution.',
     imgUrl: '/images/service_3.jfif',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_4.svg',
-    title: 'Human Resources',
+    title: 'Business Intelligence',
     subTitle:
-      'Assistance with HR-related tasks such as recruitment, training, performance.',
+      'We implement data-driven solutions, providing custom dashboards and insights to help businesses make informed decision and optimize operations.',
     imgUrl: '/images/service_4.jpeg',
     href: '/service/services-details',
   },
@@ -59,19 +59,19 @@ const videoData = {
 const faqData = [
   {
     title: 'What services does your business provide?',
-    desc: "Our pricing varies depending on the specific services you require and the scope of your project. We offer customized solutions to fit each client's unique needs and budget. Please contact us.",
+    desc: "Our business provides comprehensive IT consulting services, including custom web and mobile app development, cloud migration, and cybersecurity solutions. We specialize in creating tailored software solutions and ensuring seamless transitions to cloud platforms like AWS and Azure. Additionally, we offer ongoing IT support and management, helping businesses stay secure and efficient in today’s digital landscape.",
   },
   {
-    title: 'How much do your services cost?',
-    desc: "Our pricing varies depending on the specific services you require and the scope of your project. We offer customized solutions to fit each client's unique needs and budget. Please contact us.",
+    title: 'How can we get started with your services?',
+    desc: "Getting started is easy! Simply contact us through our website or by phone to schedule a consultation. We’ll discuss your specific needs, challenges, and goals, and create a tailored solution or roadmap for your project.",
   },
   {
-    title: 'Do you offer any guarantees or refunds?',
-    desc: "Our pricing varies depending on the specific services you require and the scope of your project. We offer customized solutions to fit each client's unique needs and budget. Please contact us.",
+    title: ' Do you work with businesses of all sizes?',
+    desc: "Yes, we work with businesses of all sizes, from startups and small businesses to large enterprises. We tailor our solutions to fit the unique needs of your organization, ensuring the best results regardless of your size or industry.",
   },
   {
-    title: 'How do I get started with your services?',
-    desc: "Our pricing varies depending on the specific services you require and the scope of your project. We offer customized solutions to fit each client's unique needs and budget. Please contact us.",
+    title: 'Can you help us migrate to the cloud?',
+    desc: "Absolutely! We specialize in cloud consulting and migration, helping businesses move their infrastructure, applications, and data to cloud platforms like AWS, Azure, or Google Cloud. We ensure a seamless transition with minimal downtime.",
   },
 ];
 
@@ -79,26 +79,26 @@ const testimonialData = [
   {
     imgUrl: '/images/testimonial_thumb_1.png',
     subTitle:
-      "I have been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone",
+      "Fantastic IT support! The team was incredibly responsive and resolved our issues quickly. Their proactive approach and technical expertise kept our systems running smoothly, minimizing disruptions. We greatly appreciate their dependable service.",
     rating: '5',
     designation: 'Web design',
-    name: 'Darlene Robertson',
+    name: 'Mike R.',
   },
   {
     imgUrl: '/images/testimonial_thumb_2.png',
     subTitle:
-      "I have been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone",
+      "The cloud migration handled by this team was flawless. They ensured a smooth and secure transition with minimal downtime. Their support was thorough, addressing all our concerns and optimizing our cloud environment. We couldn't be happier with the results.",
     rating: '4.5',
     designation: 'Ui designer',
-    name: 'Robertson',
+    name: 'Sarah L.',
   },
   {
     imgUrl: '/images/testimonial_thumb_3.png',
     subTitle:
-      "I have been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone",
+      "Exceptional service! The team seamlessly transformed our IT infrastructure with impressive efficiency. Their expertise and attention to detail were evident throughout the project. Highly recommended for anyone looking to upgrade their IT systems.",
     rating: '4',
     designation: 'Web developer',
-    name: 'Darlene',
+    name: 'John D.',
   },
 ];
 
@@ -245,7 +245,7 @@ export default function Home2() {
     <>
       <HeroStyle2
         titleUp="Santa IT Consultants"
-        title='Your Trusted <br />Consultants Of <span className="text-accent position-relative d-inline-block">Business</span>'
+        title='Your Trusted <br />Agency Of <span className="text-accent position-relative d-inline-block">Business</span>'
         btnText="Get A Quote"
         btnUrl="/contact"
         bgUrl="/images/hero_slider_4.jpeg"
@@ -273,17 +273,17 @@ export default function Home2() {
           sectionTitleUp="About Us"
           sectionTitle='Your Trusted Business
           <span className="text-accent">Agency</span>'
-          sectionSubTitle="Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.."
+          sectionSubTitle="Welcome to <B>Santa IT Consultants</B>, a leading IT consulting firm based in the heart of Silicon Valley, Santa Clara, CA. Since our founding, we have been dedicated to helping businesses of all sizes transform their operations through innovative technology solutions."
           featureList={[
             {
               imgUrl: '/images/icons/iconbox_icon_1.svg',
-              title: 'Accounting and bookkeeping',
-              desc: 'We provide a range of digital marketing solutions.',
+              title: 'IT Support and Services',
+              desc: 'We provide IT support and services, including proactive monitoring, troubleshooting, and maintenance.',
             },
             {
               imgUrl: '/images/icons/iconbox_icon_2.svg',
-              title: 'IT Innovation & Consulting',
-              desc: 'Assistance with HR-related tasks such as recruitment.',
+              title: 'Infrastructure Solutions',
+              desc: 'Designing and implementing scalable network solutions for businesses, and reliable connectivity.',
             },
           ]}
         />
@@ -293,9 +293,9 @@ export default function Home2() {
         <FaqSection
           sectionTitleUp="frequently asked questions"
           sectionTitle="Question & Answer"
-          sectionSubTitle="Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics. The timeline for seeing results depends on the specific services you choose and the current state of your business."
+          sectionSubTitle="Find quick answers to the most commonly asked questions about our services, expertise, and how we can help your business thrive. Whether you’re curious about our offerings, support options, or project timelines, we’ve got you covered."
           data={faqData}
-          bgImgUrl="/images/faq_bg.jpeg"
+          bgImgUrl="/images/faq_bg1.jpg"
           imgUrl="/images/why_chose_1.jpeg"
           iconUrl="/images/icons/faq_icon_1.svg"
           featureTitle="We Have Many Happy Clients Allover World Wide"

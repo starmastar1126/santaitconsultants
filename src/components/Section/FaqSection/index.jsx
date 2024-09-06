@@ -65,7 +65,7 @@ export default function FaqSection({
           style={{ backgroundImage: `url(${bgImgUrl})` }}
         />
       </div>
-      <div className="cs_section_shape-2 position-absolute">
+      {/* <div className="cs_section_shape-2 position-absolute">
         <svg
           width={331}
           height={318}
@@ -89,7 +89,7 @@ export default function FaqSection({
             fillOpacity="0.1"
           />
         </svg>
-      </div>
+      </div> */}
     </>
   );
 }
