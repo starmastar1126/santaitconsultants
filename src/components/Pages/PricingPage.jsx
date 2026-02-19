@@ -11,7 +11,7 @@ export default function PricingPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Pricing List" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Pricing List" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="140" ptLg="80" pb="110" pbLg="40">
         <PricingSection />
       </Section>

@@ -3,10 +3,10 @@ import TestimonialStyle2 from '../Testimonial/TestimonialStyle2';
 import { useState } from 'react';
 
 const testimonialImageNav = [
-  'images/testimonials/testimonial_thumb_21.png',
-  'images/testimonials/testimonial_thumb_22.png',
-  'images/testimonials/testimonial_thumb_23.png',
-  'images/testimonials/testimonial_thumb_24.png',
+  'images/testimonial/testimonial_thumb_21.png',
+  'images/testimonial/testimonial_thumb_22.png',
+  'images/testimonial/testimonial_thumb_23.png',
+  'images/testimonial/testimonial_thumb_24.png',
 ];
 
 export default function TestimonialSliderStyle3({ data }) {

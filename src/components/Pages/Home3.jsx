@@ -19,7 +19,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpeg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -27,7 +27,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -35,7 +35,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jpeg',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -43,7 +43,7 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
   {
@@ -51,7 +51,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpeg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -59,7 +59,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -67,7 +67,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jpeg',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -75,7 +75,7 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
 ];
@@ -105,38 +105,38 @@ const funfactData = [
 
 const portfolioData = [
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio/portfolio_1.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio/portfolio_2.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio/portfolio_4.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
 ];
 
 const brandData = [
-  { imgUrl: '/images/brand_1.svg' },
-  { imgUrl: '/images/brand_2.svg' },
-  { imgUrl: '/images/brand_3.svg' },
-  { imgUrl: '/images/brand_4.svg' },
-  { imgUrl: '/images/brand_5.svg' },
+  { imgUrl: '/images/icons/brand_1.svg' },
+  { imgUrl: '/images/icons/brand_2.svg' },
+  { imgUrl: '/images/icons/brand_3.svg' },
+  { imgUrl: '/images/icons/brand_4.svg' },
+  { imgUrl: '/images/icons/brand_5.svg' },
 ];
 
 const faqData = [
@@ -160,7 +160,7 @@ const faqData = [
 
 const testimonialData = [
   {
-    imgUrl: '/images/testimonial_thumb_1.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_1.png',
     subTitle:
       "I have been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone",
     rating: '4',
@@ -168,7 +168,7 @@ const testimonialData = [
     name: 'Darlene Robertson',
   },
   {
-    imgUrl: '/images/testimonial_thumb_2.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_2.png',
     subTitle:
       "I have been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone",
     rating: '4.5',
@@ -176,7 +176,7 @@ const testimonialData = [
     name: 'Robertson',
   },
   {
-    imgUrl: '/images/testimonial_thumb_3.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_3.png',
     subTitle:
       "I have been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone",
     rating: '5',
@@ -187,7 +187,7 @@ const testimonialData = [
 
 const postData = [
   {
-    imgUrl: '/images/post_1.jpeg',
+    imgUrl: '/images/post/post_1.jpeg',
     title: 'What services does your business provide?',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -197,7 +197,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_2.jpeg',
+    imgUrl: '/images/post/post_2.jpeg',
     title: 'Introducing the latest tech features for you',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -207,7 +207,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_3.jpeg',
+    imgUrl: '/images/post/post_3.jpeg',
     title: 'The creative studio programm coming soon',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -217,7 +217,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_3.jpeg',
+    imgUrl: '/images/post/post_3.jpeg',
     title: 'Introducing the latest tech features for you',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -236,8 +236,8 @@ export default function Home3() {
   return (
     <>
       <HeroStyle3
-        heroBg="/images/hero_bg.jpeg"
-        heroImg="/images/hero_mini_img_1.png"
+        heroBg="/images/hero/hero_bg.jpeg"
+        heroImg="/images/hero/hero_mini_img_1.png"
         videoUrl="/images/video.mp4"
         title=" Your trusted source <br /> for financial insights <br /> and services"
         subTitle="Welcome to BizServe, your one-stop destination for comprehensive
@@ -254,8 +254,8 @@ export default function Home3() {
         className="position-relative"
       >
         <AboutSectionStyle3
-          imgUrl="/images/about_img_3.png"
-          bgImgUrl="/images/experience_bg.jpeg"
+          imgUrl="/images/about/about_img_3.png"
+          bgImgUrl="/images/experience/experience_bg.jpeg"
           workExprience="40"
           workExprienceTitle="Work Experience"
           sectionTitleUp="About Us"
@@ -296,7 +296,7 @@ export default function Home3() {
         pb="140"
         pbLg="80"
         className="cs_gray_bg"
-        style={{ backgroundImage: `url('/images/services_bg.png')` }}
+        style={{ backgroundImage: `url('/images/service/services_bg.png')` }}
       >
         <ServiceSectionStyle2
           sectionTitleUp="Our Service List"
@@ -337,7 +337,7 @@ export default function Home3() {
         ptLg="80"
         pb="140"
         pbLg="120"
-        style={{ backgroundImage: `url('/images/testimonial_bg_1.jpeg')` }}
+        style={{ backgroundImage: `url('/images/testimonial/testimonial_bg_1.jpeg')` }}
       >
         <TestimonialSliderStyle3 data={testimonialData} />
       </Section>
@@ -347,7 +347,7 @@ export default function Home3() {
         ptLg="75"
         pb="85"
         pbLg="55"
-        style={{ backgroundImage: `url('/images/contact_bg.jpeg')` }}
+        style={{ backgroundImage: `url('/images/contact/contact_bg.jpeg')` }}
       >
         <ContactSectionStyle2
           sectionTitle="Let’s Work Together?"

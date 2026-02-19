@@ -20,67 +20,67 @@ const movingTextData = [
 
 const portfolioData = [
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'digital',
   },
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio/portfolio_1.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'graphics',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio/portfolio_2.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'marketing',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio/portfolio_4.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'graphics',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio/portfolio_1.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'marketing',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio/portfolio_2.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'graphics',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio/portfolio_4.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'marketing',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'digital',
@@ -127,25 +127,25 @@ const testimonialData = [
 
 const teamData = [
   {
-    imgUrl: '/images/team_member_1.jpeg',
+    imgUrl: '/images/team/team_member_1.jpeg',
     name: 'Ralph Edwards',
     designation: 'Web designer',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_2.jpeg',
+    imgUrl: '/images/team/team_member_2.jpeg',
     name: 'Wade Warren',
     designation: 'Marketing Coordinator',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_3.jpeg',
+    imgUrl: '/images/team/team_member_3.jpeg',
     name: 'Jane Cooper',
     designation: 'Creative Designer',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_5.jpeg',
+    imgUrl: '/images/team/team_member_5.jpeg',
     name: 'Jane Cooper',
     designation: 'Creative Designer',
     srcUrl: '/team/team-details',
@@ -177,7 +177,7 @@ const funfactData = [
 
 const postData = [
   {
-    imgUrl: '/images/post_1.jpeg',
+    imgUrl: '/images/post/post_1.jpeg',
     title: 'What services does your business provide?',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -187,7 +187,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_2.jpeg',
+    imgUrl: '/images/post/post_2.jpeg',
     title: 'Introducing the latest tech features for you',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -197,7 +197,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_3.jpeg',
+    imgUrl: '/images/post/post_3.jpeg',
     title: 'The creative studio programm coming soon',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -207,7 +207,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_1.jpeg',
+    imgUrl: '/images/post/post_1.jpeg',
     title: 'What services does your business provide?',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -217,7 +217,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_2.jpeg',
+    imgUrl: '/images/post/post_2.jpeg',
     title: 'Introducing the latest tech features for you',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -227,7 +227,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_3.jpeg',
+    imgUrl: '/images/post/post_3.jpeg',
     title: 'The creative studio programm coming soon',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -246,7 +246,7 @@ export default function Home5() {
   return (
     <>
       <HeroStyle5
-        bgImg="/images/hero_video_bg.jpeg"
+        bgImg="/images/hero/hero_video_bg.jpeg"
         title="Strategic Solutions for Business Growth Your Path to Success"
         subTitle="Welcome to BizServe, your one-stop destination for comprehensive <br /> financial insights and top-notch services."
         srcUrl="/contact"
@@ -260,9 +260,9 @@ export default function Home5() {
         className="position-relative"
       >
         <AboutUsSection
-          thumbUrl="/images/experience_img.jpeg"
-          experienceBgUrl="/images/experience_bg.jpeg"
-          experienceIconUrl="/images/experience_icon.svg"
+          thumbUrl="/images/experience/experience_img.jpeg"
+          experienceBgUrl="/images/experience/experience_bg.jpeg"
+          experienceIconUrl="/images/icons/experience_icon.svg"
           experienceNumber="40"
           experienceTitle="Work Experience"
           sectionTitleUp="About Us"
@@ -352,7 +352,7 @@ export default function Home5() {
           sectionSubTitle="Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses."
           textVarient="text-white"
           className="cs_mb_40"
-          sectionImgUrl="/images/contact_img_1.png"
+          sectionImgUrl="/images/contact/contact_img_1.png"
           contactInfo={[
             {
               imgUrl: '/images/icons/contact_icon_1.svg',

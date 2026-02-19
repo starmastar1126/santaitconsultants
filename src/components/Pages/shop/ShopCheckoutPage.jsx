@@ -11,7 +11,7 @@ export default function ShopCheckoutPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Checkout" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Checkout" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="120" ptLg="80" pb="120" pbLg="80">
         <div className="container">
           <div className="row">

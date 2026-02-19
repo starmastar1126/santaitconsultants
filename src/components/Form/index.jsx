@@ -4,10 +4,9 @@ export default function ContactForm({ variant }) {
   return (
     <form
       action="#"
-      className={`cs_contact_form bg-white cs_pt_64 cs_pl_80 cs_pr_80 cs_pb_80 cs_pl_lg_30 cs_pr_lg_30 position-relative cs_rounded_20 ${
-        variant ? variant : ''
-      }`}
-      style={{ backgroundImage: `url('/images/contact_bg_pattern.svg')` }}
+      className={`cs_contact_form bg-white cs_pt_64 cs_pl_80 cs_pr_80 cs_pb_80 cs_pl_lg_30 cs_pr_lg_30 position-relative cs_rounded_20 ${variant ? variant : ''
+        }`}
+      style={{ backgroundImage: `url('/images/icons/contact_bg_pattern.svg')` }}
     >
       <div className="cs_section_heading cs_style_1 d-flex align-items-center text-center cs_mb_30">
         <div className="cs_section_heading_in">

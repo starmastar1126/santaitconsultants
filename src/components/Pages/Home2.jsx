@@ -19,34 +19,34 @@ const serviceData = [
     iconUrl: '/images/icons/service_icon_1.svg',
     title: 'Software Development',
     subTitle: 'We build custom web and mobile applications that improve efficiency, enhance user experience, and support long-term business growth.',
-    imgUrl: '/images/services/service_1.jpg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/software-development',
   },
   {
     iconUrl: '/images/icons/service_icon_2.svg',
     title: 'Cybersecurity Solutions',
     subTitle: 'We protect your systems with proactive monitoring, risk assessments, threat prevention, and compliance strategies to reduce vulnerabilities.',
-    imgUrl: '/images/services/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/cybersecurity-solutions',
   },
   {
     iconUrl: '/images/icons/service_icon_3.svg',
     title: 'Managed IT Services',
     subTitle: 'We deliver reliable IT support, infrastructure management, and performance optimization to ensure secure, stable, and efficient operations.',
-    imgUrl: '/images/services/service_3.jfif',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/managed-it-services',
   },
   {
     iconUrl: '/images/icons/service_icon_4.svg',
     title: 'Business Intelligence',
     subTitle: 'We transform complex data into actionable insights through analytics, dashboards, and reporting tools that support smarter business decisions.',
-    imgUrl: '/images/services/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/business-intelligence',
   },
 ];
 
 const videoData = {
-  imgSrc: '/images/video_block1.jpeg',
+  imgSrc: '/images/video_block.jpeg',
   bgImgUrl: '/images/video_block_shape.jpeg',
   videoSrc: 'https:/www.youtube.com/embed/0Tz4Ycjbdbg',
   title: 'Your Trusted Agency of <br /> Choice',
@@ -73,28 +73,28 @@ const faqData = [
 
 const testimonialData = [
   {
-    imgUrl: '/images/testimonials/testimonial_thumb_21.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_21.png',
     subTitle: "Fantastic IT support! The team was incredibly responsive and resolved our issues quickly. Their proactive approach and technical expertise kept our systems running smoothly, minimizing disruptions. We greatly appreciate their dependable service.",
     rating: '5',
     designation: 'Web design',
     name: 'Jennifer W.',
   },
   {
-    imgUrl: '/images/testimonials/testimonial_thumb_22.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_22.png',
     subTitle: "The cloud migration handled by this team was flawless. They ensured a smooth and secure transition with minimal downtime. Their support was thorough, addressing all our concerns and optimizing our cloud environment. We couldn't be happier with the results.",
     rating: '4.5',
     designation: 'Ui designer',
     name: 'Meriel A.',
   },
   {
-    imgUrl: '/images/testimonials/testimonial_thumb_23.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_23.png',
     subTitle: "Exceptional service! The team seamlessly transformed our IT infrastructure with impressive efficiency. Their expertise and attention to detail were evident throughout the project. Highly recommended for anyone looking to upgrade their IT systems.",
     rating: '4',
     designation: 'Web developer',
     name: 'Eleftheria P.',
   },
   {
-    imgUrl: '/images/testimonials/testimonial_thumb_24.png',
+    imgUrl: '/images/testimonial/testimonial_thumb_24.png',
     subTitle: "Exceptional service! The team seamlessly transformed our IT infrastructure with impressive efficiency. Their expertise and attention to detail were evident throughout the project. Highly recommended for anyone looking to upgrade their IT systems.",
     rating: '4',
     designation: 'Web developer',
@@ -104,96 +104,96 @@ const testimonialData = [
 
 const portfolioData = [
   {
-    imgUrl: '/images/portfolio1.png',
+    imgUrl: '/images/portfolio/portfolio10.png',
+    title: 'Cash Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'design',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio11.png',
+    title: 'Ecommerce Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'ai',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio12.png',
+    title: 'Daily Task Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'ai',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio13.png',
+    title: 'Delivery Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'website',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio14.png',
+    title: 'Furniture Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'design',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio15.png',
+    title: 'Illustration Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'design',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio16.png',
+    title: 'Task Management Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'website',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio17.png',
+    title: 'Sweet Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'ai',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio18.png',
+    title: 'AirPlane Mobile App',
+    projectUrl: '/portfolio/portfolio-details',
+    category: 'ai',
+  },
+  {
+    imgUrl: '/images/portfolio/portfolio1.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'mobile',
   },
   {
-    imgUrl: '/images/portfolio1.png',
+    imgUrl: '/images/portfolio/portfolio2.png',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'website',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'ai',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'ai',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'website',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'design',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'design',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'website',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'ai',
-  },
-  {
-    imgUrl: '/images/portfolio1.png',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
-    category: 'ai',
   },
 ];
 
 const brandData = [
-  { imgUrl: '/images/brand_1.svg' },
-  { imgUrl: '/images/brand_2.svg' },
-  { imgUrl: '/images/brand_3.svg' },
-  { imgUrl: '/images/brand_4.svg' },
-  { imgUrl: '/images/brand_5.svg' },
+  { imgUrl: '/images/icons/brand_1.svg' },
+  { imgUrl: '/images/icons/brand_2.svg' },
+  { imgUrl: '/images/icons/brand_3.svg' },
+  { imgUrl: '/images/icons/brand_4.svg' },
+  { imgUrl: '/images/icons/brand_5.svg' },
 ];
 
 const stepData = [
   {
-    imgUrl: 'images/step_1.jpeg',
+    imgUrl: 'images/step/step_1.jpeg',
     title: 'Consultation',
     desc: 'We analyze your business requirements, identify technical challenges, and define a clear strategy to build scalable and efficient software solutions.',
     step: '01',
   },
   {
-    imgUrl: 'images/step_2.jpeg',
+    imgUrl: 'images/step/step_2.jpeg',
     title: 'Development',
     desc: 'Our expert engineers design, develop, and test high-performance applications using modern technologies and industry best practices.',
     step: '02',
   },
   {
-    imgUrl: 'images/step_3.jpeg',
+    imgUrl: 'images/step/step_3.jpeg',
     title: 'Deployment',
     desc: 'We launch your solution securely and provide continuous monitoring, optimization, and long-term technical support.',
     step: '03',
@@ -202,7 +202,7 @@ const stepData = [
 
 const postData = [
   {
-    imgUrl: '/images/posts/post_4.jpeg',
+    imgUrl: '/images/post/post_4.jpeg',
     title: 'What solutions does your company offer?',
     desc: 'We deliver complete IT consulting services including software development.',
     postUrl: '/blog/blog-details',
@@ -212,7 +212,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/posts/post_5.jpeg',
+    imgUrl: '/images/post/post_5.jpeg',
     title: 'Discover the newest technology updates',
     desc: 'We build scalable cloud solutions and modern enterprise applications.',
     postUrl: '/blog/blog-details',
@@ -222,7 +222,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/posts/post_6.jpeg',
+    imgUrl: '/images/post/post_6.jpeg',
     title: 'Our innovative tech studio launching soon',
     desc: 'We help startups grow with secure and innovative technology.',
     postUrl: '/blog/blog-details',
@@ -248,7 +248,7 @@ export default function Home2() {
         title='Your Trusted <br />Agency Of <span className="text-accent position-relative d-inline-block">Business</span>'
         btnText="Get A Quote"
         btnUrl="/contact"
-        bgUrl="/images/hero_slider_4.jpeg"
+        bgUrl="/images/hero/hero_slider_4.jpeg"
       />
 
       <Section pt="140" ptLg="80" className="bg-primary">
@@ -266,8 +266,8 @@ export default function Home2() {
 
       <Section pb="140" pbLg="80" className="position-relative">
         <AboutSectionStyle2
-          imgUrl="/images/about_img_11.png"
-          bgImgUrl="/images/experience_bg_2.jpg"
+          imgUrl="/images/about/about_img_11.png"
+          bgImgUrl="/images/experience/experience_bg_2.jpg"
           workExprience="40"
           workExprienceTitle="Work Experience"
           sectionTitleUp="About Us"
@@ -296,7 +296,7 @@ export default function Home2() {
           sectionSubTitle="Find quick answers to the most commonly asked questions about our services, expertise, and how we can help your business thrive. Whether you’re curious about our offerings, support options, or project timelines, we’ve got you covered."
           data={faqData}
           bgImgUrl="/images/faq_bg1.jpg"
-          imgUrl="/images/why_chose_1.jpeg"
+          imgUrl="/images/why_choose/why_chose_1.jpeg"
           iconUrl="/images/icons/faq_icon_1.svg"
           featureTitle="We Have Many Happy Clients Allover World Wide"
           featureList={['Award Wining Agency', 'Higest Success Rates']}
@@ -308,7 +308,7 @@ export default function Home2() {
         ptLg="80"
         pb="140"
         pbLg="120"
-        style={{ backgroundImage: `url('/images/testimonial_bg_1.jpeg')` }}
+        style={{ backgroundImage: `url('/images/testimonial/testimonial_bg_1.jpeg')` }}
       >
         <TestimonialSliderStyle3 data={testimonialData} />
       </Section>
@@ -318,7 +318,7 @@ export default function Home2() {
         ptLg="75"
         pb="85"
         pbLg="55"
-        style={{ backgroundImage: `url('/images/contact_bg.jpeg')` }}
+        style={{ backgroundImage: `url('/images/contact/contact_bg.jpeg')` }}
       >
         <ContactSectionStyle2
           sectionTitle="Let’s Work Together?"

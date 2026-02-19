@@ -10,7 +10,7 @@ export default function ShopOrderRecived() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Success Order" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Success Order" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="140" ptLg="80" pb="140" pbLg="80">
         <div className="container">
           <p className="m-0 text-center cs_pb_95 cs_pb_50">

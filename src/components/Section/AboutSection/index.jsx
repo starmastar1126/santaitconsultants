@@ -34,7 +34,7 @@ export default function AboutUsSection({
                 />
                 <div className="cs_experience_shape">
                   <img
-                    src="/images/experience_shape_1.png"
+                    src="/images/experience/experience_shape_1.png"
                     alt="Shape"
                     className="moving_x"
                   />

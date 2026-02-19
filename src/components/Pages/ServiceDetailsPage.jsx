@@ -52,7 +52,7 @@ export default function ServiceDetailsPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Service Details" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Service Details" bgUrl="/images/header/page_header_1.jpeg" />
 
       <Section pt="140" ptLg="80" pb="115" pbLg="55">
         <div className="container">
@@ -76,7 +76,7 @@ export default function ServiceDetailsPage() {
               <div
                 className="cs_quick_contact_card background-filled cs_mb_40 text-center"
                 style={{
-                  backgroundImage: `url('/images/service-list-card.jpeg')`,
+                  backgroundImage: `url('/images/service/service-list-card.jpeg')`,
                 }}
               >
                 <div className="cs_quick_contact_card_in">
@@ -134,7 +134,7 @@ export default function ServiceDetailsPage() {
             </div>
             <div className="col-xl-8 col-lg-7">
               <img
-                src="/images/service-details-img-1.jpg"
+                src="/images/service/service-details-img-1.jpg"
                 alt="Thumb"
                 className="cs_mb_40"
               />
@@ -171,7 +171,7 @@ export default function ServiceDetailsPage() {
               <div className="row cs_mb_30">
                 <div className="col-xl-6">
                   <img
-                    src="/images/service-details-img-2.jpeg"
+                    src="/images/service/service-details-img-2.jpeg"
                     alt=""
                     className="cs_rounded_15 cs_mb_30"
                   />
@@ -213,7 +213,7 @@ export default function ServiceDetailsPage() {
         ptLg="75"
         pb="140"
         pbLg="80"
-        style={{ backgroundImage: `url('/images/contact_bg_2.jpeg')` }}
+        style={{ backgroundImage: `url('/images/contact/contact_bg_2.jpeg')` }}
       >
         <div className="container">
           <div className="row">

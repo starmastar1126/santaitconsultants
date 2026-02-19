@@ -6,67 +6,67 @@ import { pageTitle } from '../../helpers/PageTitle';
 
 const portfolioData = [
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'digital',
   },
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio/portfolio_1.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'graphics',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio/portfolio_2.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'marketing',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio/portfolio_4.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'graphics',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio/portfolio_1.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'marketing',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio/portfolio_2.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'graphics',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'website',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio/portfolio_4.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'marketing',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
     category: 'digital',
@@ -80,7 +80,7 @@ export default function PortfolioPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Our Portfolio" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Our Portfolio" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="130" ptLg="75" pb="125" pbLg="55">
         <div className="container">
           <Gallery data={portfolioData} />

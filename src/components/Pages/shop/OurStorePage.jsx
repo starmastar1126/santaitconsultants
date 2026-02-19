@@ -91,7 +91,7 @@ export default function OurStorePage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Our Store" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Our Store" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="140" ptLg="80" pb="140" pbLg="80">
         <div className="container">
           <div className="row cs_gap_y_40">

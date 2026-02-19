@@ -12,7 +12,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -20,7 +20,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -28,7 +28,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jfif',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -36,17 +36,17 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
 ];
 
 const brandData = [
-  { imgUrl: '/images/brand_1.svg' },
-  { imgUrl: '/images/brand_2.svg' },
-  { imgUrl: '/images/brand_3.svg' },
-  { imgUrl: '/images/brand_4.svg' },
-  { imgUrl: '/images/brand_5.svg' },
+  { imgUrl: '/images/icons/brand_1.svg' },
+  { imgUrl: '/images/icons/brand_2.svg' },
+  { imgUrl: '/images/icons/brand_3.svg' },
+  { imgUrl: '/images/icons/brand_4.svg' },
+  { imgUrl: '/images/icons/brand_5.svg' },
 ];
 
 const testimonialData = [
@@ -94,7 +94,7 @@ export default function ServicesPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Our Services" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Our Services" bgUrl="/images/header/page_header_1.jpeg" />
 
       <Section pt="140" ptLg="80" pb="115" pbLg="55">
         <ServiceSectionStyle4
@@ -113,7 +113,7 @@ export default function ServicesPage() {
         ptLg="75"
         pb="135"
         pbLg="75"
-        style={{ backgroundImage: `url(${'/images/testimonial_bg.jpeg'})` }}
+        style={{ backgroundImage: `url(${'/images/testimonial/testimonial_bg.jpeg'})` }}
       >
         <TestimonialSection
           sectionTitleUp="Testimonial"

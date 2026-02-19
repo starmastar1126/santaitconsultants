@@ -10,7 +10,7 @@ import { pageTitle } from '../../helpers/PageTitle';
 
 const postData = [
   {
-    imgUrl: '/images/post_9.jpeg',
+    imgUrl: '/images/post/post_9.jpeg',
     title: 'What services does your business provide?',
     subTitle:
       "We believe that every business deserves to succeed, no matter its size. That's why we offer affordable and customized solutions that fit each client's unique needs and goals.",
@@ -21,7 +21,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_10.jpeg',
+    imgUrl: '/images/post/post_10.jpeg',
     title: 'Get a few solutions to hire a best candidate',
     subTitle:
       "We believe that every business deserves to succeed, no matter its size. That's why we offer affordable and customized solutions that fit each client's unique needs and goals.",
@@ -32,7 +32,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_11.jpeg',
+    imgUrl: '/images/post/post_11.jpeg',
     title: 'Basic rules of running a small web agency',
     subTitle:
       "We believe that every business deserves to succeed, no matter its size. That's why we offer affordable and customized solutions that fit each client's unique needs and goals.",
@@ -54,19 +54,19 @@ const categoryData = [
 
 const recentPost = [
   {
-    imgUrl: '/images/recent-post-1.jpeg',
+    imgUrl: '/images/post/recent-post-1.jpeg',
     title: 'What services does your business provide?',
     date: '3 April, 2024',
     srcUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/recent-post-2.jpeg',
+    imgUrl: '/images/post/recent-post-2.jpeg',
     title: 'What services does your business provide?',
     date: '2 April, 2024',
     srcUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/recent-post-3.jpeg',
+    imgUrl: '/images/post/recent-post-3.jpeg',
     title: 'What services does your business provide?',
     date: '1 April, 2024',
     srcUrl: '/blog/blog-details',
@@ -102,7 +102,7 @@ export default function BlogListPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Latest Blog" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Latest Blog" bgUrl="/images/header/page_header_1.jpeg" />
       <section className="cs_pt_140 cs_pt_lg_80 cs_pb_100 cs_pb_lg_80">
         <div className="container">
           <div className="row">

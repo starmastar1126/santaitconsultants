@@ -7,7 +7,7 @@ import SocialBtnsStyle3 from '../SocialBtns/SocialBtnsStyle3';
 import IconboxStyle4 from '../Iconbox/IconboxStyle4';
 import { pageTitle } from '../../helpers/PageTitle';
 
-const imgUrl = '/images/team_member_4.jpeg';
+const imgUrl = '/images/team/team_member_4.jpeg';
 
 const da = [
   {
@@ -60,7 +60,7 @@ export default function TeamMemberPage() {
     <>
       <Breadcrumb
         title="Team Member Details"
-        bgUrl="/images/page_header_1.jpeg"
+        bgUrl="/images/header/page_header_1.jpeg"
       />
       <Section pt="140" ptLg="80" pb="115" pbLg="55">
         <div className="container">
@@ -141,7 +141,7 @@ export default function TeamMemberPage() {
         ptLg="75"
         pb="140"
         pbLg="80"
-        style={{ backgroundImage: `url('/images/contact_bg_2.jpeg')` }}
+        style={{ backgroundImage: `url('/images/contact/contact_bg_2.jpeg')` }}
       >
         <div className="container">
           <div className="row">

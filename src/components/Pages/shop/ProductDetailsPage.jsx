@@ -16,7 +16,7 @@ export default function ProductDetailsPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Product Details" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Product Details" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="140" ptLg="80" pb="140" pbLg="80">
         <div className="container">
           <div className="cs_pb_100">

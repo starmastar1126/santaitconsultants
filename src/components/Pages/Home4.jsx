@@ -18,7 +18,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpeg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -26,7 +26,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -34,7 +34,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jpeg',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -42,7 +42,7 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
   {
@@ -50,7 +50,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpeg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -58,7 +58,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -66,7 +66,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jpeg',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -74,7 +74,7 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
 ];
@@ -119,19 +119,19 @@ const testimonialData = [
 
 const stepData = [
   {
-    imgUrl: 'images/step_1.jpeg',
+    imgUrl: 'images/step/step_1.jpeg',
     title: 'Marketing',
     desc: 'We provide a range of digital marketing lutions including website design.',
     step: '01',
   },
   {
-    imgUrl: 'images/step_2.jpeg',
+    imgUrl: 'images/step/step_2.jpeg',
     title: 'Development',
     desc: 'We provide a range of digital marketing lutions including website design.',
     step: '02',
   },
   {
-    imgUrl: 'images/step_3.jpeg',
+    imgUrl: 'images/step/step_3.jpeg',
     title: 'Release',
     desc: 'We provide a range of digital marketing lutions including website design.',
     step: '03',
@@ -139,16 +139,16 @@ const stepData = [
 ];
 
 const brandData = [
-  { imgUrl: '/images/brand_1.svg' },
-  { imgUrl: '/images/brand_2.svg' },
-  { imgUrl: '/images/brand_3.svg' },
-  { imgUrl: '/images/brand_4.svg' },
-  { imgUrl: '/images/brand_5.svg' },
+  { imgUrl: '/images/icons/brand_1.svg' },
+  { imgUrl: '/images/icons/brand_2.svg' },
+  { imgUrl: '/images/icons/brand_3.svg' },
+  { imgUrl: '/images/icons/brand_4.svg' },
+  { imgUrl: '/images/icons/brand_5.svg' },
 ];
 
 const postData = [
   {
-    imgUrl: '/images/post_1.jpeg',
+    imgUrl: '/images/post/post_1.jpeg',
     title: 'What services does your business provide?',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -158,7 +158,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_2.jpeg',
+    imgUrl: '/images/post/post_2.jpeg',
     title: 'Introducing the latest tech features for you',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -168,7 +168,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_3.jpeg',
+    imgUrl: '/images/post/post_3.jpeg',
     title: 'The creative studio programm coming soon',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -187,8 +187,8 @@ export default function Home4() {
   return (
     <>
       <HeroStyle4
-        heroImg="/images/hero_img_2.jpeg"
-        heroBg="/images/hero_bg_2.png"
+        heroImg="/images/hero/hero_img_2.jpeg"
+        heroBg="/images/hero/hero_bg_2.png"
         titleUp="Get Guardian Shield Insurance!"
         title="SantaIT Your Path to Comprehensive Insurance Solutions"
         subTitle="Welcome to BizServe, your one-stop destination for comprehensive
@@ -216,7 +216,7 @@ export default function Home4() {
         className="position-relative"
       >
         <AboutSectionStyle4
-          imgUrl="/images/about_img_4.png"
+          imgUrl="/images/about/about_img_4.png"
           sectionTitleUp="About Us"
           sectionTitle='Your Trusted Finance Consulting <span className="text-accent">Agency</span>'
           sectionSubTitle="Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for
@@ -247,8 +247,8 @@ export default function Home4() {
         className="position-relative cs_type_1 cs_iconbox_2_wrap overflow-hidden"
       >
         <WhyChooseUsSection
-          imgUrlLeft="/images/why_choose_us_left_img.jpeg"
-          imgUrlRight="/images/why_choose_us_right_img_2.jpeg"
+          imgUrlLeft="/images/why_choose/why_choose_us_left_img.jpeg"
+          imgUrlRight="/images/why_choose/why_choose_us_right_img_2.jpeg"
           sectionTitleUp="Why Choose Us"
           sectionTitle='Developing a <span className="text-accent"> design that <br /> is easy </span> to use and <br /> navigate'
           sectionSubTitle="Providing legal advice, contract drafting, compliance

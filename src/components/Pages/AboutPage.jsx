@@ -13,7 +13,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpeg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -21,7 +21,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -29,7 +29,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jpeg',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -37,26 +37,26 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
 ];
 
 const teamData = [
   {
-    imgUrl: '/images/team_member_01.jpg',
+    imgUrl: '/images/team/team_member_01.jpg',
     name: 'Daniel Thomas',
     designation: 'Found & CEO',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_04.jpg',
+    imgUrl: '/images/team/team_member_04.jpg',
     name: 'Kaitlyn Kristy',
     designation: 'Office Manager',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_07.jpg',
+    imgUrl: '/images/team/team_member_07.jpg',
     name: 'Silas Jones',
     designation: 'IT Account Manager',
     srcUrl: '/team/team-details',
@@ -108,7 +108,7 @@ export default function AboutPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="About Us" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="About Us" bgUrl="/images/header/page_header_1.jpeg" />
 
       <Section
         pt="135"
@@ -118,9 +118,9 @@ export default function AboutPage() {
         className="position-relative"
       >
         <AboutUsSection
-          thumbUrl="/images/experience_img.jpeg"
-          experienceBgUrl="/images/experience_bg.jpeg"
-          experienceIconUrl="/images/experience_icon.svg"
+          thumbUrl="/images/experience/experience_img.jpeg"
+          experienceBgUrl="/images/experience/experience_bg.jpeg"
+          experienceIconUrl="/images/icons/experience_icon.svg"
           experienceNumber="40"
           experienceTitle="Work Experience"
           sectionTitleUp="About Us"
@@ -169,7 +169,7 @@ export default function AboutPage() {
         ptLg="55"
         pb="140"
         pbLg="80"
-        style={{ backgroundImage: `url(${'/images/testimonial_bg.jpeg'})` }}
+        style={{ backgroundImage: `url(${'/images/testimonial/testimonial_bg.jpeg'})` }}
       >
         <TestimonialSection
           sectionTitleUp="Testimonial"

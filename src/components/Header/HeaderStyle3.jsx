@@ -38,7 +38,7 @@ export default function HeaderStyle3({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
               <Link className="cs_site_branding" to="/">
-                <img src="/images/logo.svg" alt="Logo" />
+                <img src="/images/icons/logo.svg" alt="Logo" />
               </Link>
               <div className="cs_nav cs_primary_font fw-medium">
                 <span

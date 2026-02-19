@@ -17,7 +17,7 @@ import WhyChooseUsSection from '../Section/WhyChooseUsSection';
 
 const heroData = [
   {
-    bgUrl: '/images/hero_slider_2.jpeg',
+    bgUrl: '/images/hero/hero_slider_2.jpeg',
     titleUp: 'This Week Only for World Premier',
     title: 'Inventive and interested <br>in innovation',
     subTitle:
@@ -26,7 +26,7 @@ const heroData = [
     btnUrl: '/contact',
   },
   {
-    bgUrl: '/images/hero_slider_1.jpeg',
+    bgUrl: '/images/hero/hero_slider_1.jpeg',
     titleUp: 'This Week Only for World Premier',
     title: 'Inventive and interested <br>in innovation',
     subTitle:
@@ -35,7 +35,7 @@ const heroData = [
     btnUrl: '/contact',
   },
   {
-    bgUrl: '/images/hero_slider_3.jpeg',
+    bgUrl: '/images/hero/hero_slider_3.jpeg',
     titleUp: 'This Week Only for World Premier',
     title: 'Inventive and interested <br>in innovation',
     subTitle:
@@ -58,7 +58,7 @@ const serviceData = [
     title: 'Accounting and Bookkeeping',
     subTitle:
       'Services related to financial record-keeping, bookkeeping, preparation and action.',
-    imgUrl: '/images/service_1.jpeg',
+    imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
@@ -66,7 +66,7 @@ const serviceData = [
     title: 'IT Support and Consulting',
     subTitle:
       'Providing technical support, network setup, software installation system.',
-    imgUrl: '/images/service_2.jpeg',
+    imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
@@ -74,7 +74,7 @@ const serviceData = [
     title: 'Marketing and Advertising',
     subTitle:
       'Services that help businesses create and execute market strategies.',
-    imgUrl: '/images/service_3.jpeg',
+    imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
@@ -82,34 +82,34 @@ const serviceData = [
     title: 'Human Resources',
     subTitle:
       'Assistance with HR-related tasks such as recruitment, training, performance.',
-    imgUrl: '/images/service_4.jpeg',
+    imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
 ];
 
 const portfolioData = [
   {
-    imgUrl: '/images/portfolio_1.jpeg',
+    imgUrl: '/images/portfolio/portfolio_1.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_2.jpeg',
+    imgUrl: '/images/portfolio/portfolio_2.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_4.jpeg',
+    imgUrl: '/images/portfolio/portfolio_4.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
   {
-    imgUrl: '/images/portfolio_3.jpeg',
+    imgUrl: '/images/portfolio/portfolio_3.jpeg',
     title: 'Marketing Web-design',
     projectUrl: '/portfolio/portfolio-details',
   },
@@ -155,7 +155,7 @@ const testimonialData = [
 
 const productData = [
   {
-    imgUrl: '/images/product_1.jpeg',
+    imgUrl: '/images/product/product_1.jpeg',
     title: 'Women high shoe',
     price: '20',
     cartList: '/shop-cart',
@@ -163,7 +163,7 @@ const productData = [
     productDetails: '/shop/product-details',
   },
   {
-    imgUrl: '/images/product_2.jpeg',
+    imgUrl: '/images/product/product_2.jpeg',
     title: 'Wooden top chair',
     price: '20',
     cartList: '/shop-cart',
@@ -171,7 +171,7 @@ const productData = [
     productDetails: '/shop/product-details',
   },
   {
-    imgUrl: '/images/product_3.jpeg',
+    imgUrl: '/images/product/product_3.jpeg',
     title: 'Hemp seed shampoo',
     price: '20',
     cartList: '/shop-cart',
@@ -179,7 +179,7 @@ const productData = [
     productDetails: '/shop/product-details',
   },
   {
-    imgUrl: '/images/product_4.jpeg',
+    imgUrl: '/images/product/product_4.jpeg',
     title: 'Nikon dslr camera',
     price: '20',
     cartList: '/shop-cart',
@@ -187,7 +187,7 @@ const productData = [
     productDetails: '/shop/product-details',
   },
   {
-    imgUrl: '/images/product_5.jpeg',
+    imgUrl: '/images/product/product_5.jpeg',
     title: 'Apple iPhone 12 Pro Max',
     price: '20',
     cartList: '/shop-cart',
@@ -198,19 +198,19 @@ const productData = [
 
 const teamData = [
   {
-    imgUrl: '/images/team_member_1.jpeg',
+    imgUrl: '/images/team/team_member_1.jpeg',
     name: 'Ralph Edwards',
     designation: 'Web designer',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_2.jpeg',
+    imgUrl: '/images/team/team_member_2.jpeg',
     name: 'Wade Warren',
     designation: 'Marketing Coordinator',
     srcUrl: '/team/team-details',
   },
   {
-    imgUrl: '/images/team_member_3.jpeg',
+    imgUrl: '/images/team/team_member_3.jpeg',
     name: 'Jane Cooper',
     designation: 'Creative Designer',
     srcUrl: '/team/team-details',
@@ -218,16 +218,16 @@ const teamData = [
 ];
 
 const brandData = [
-  { imgUrl: '/images/brand_1.svg' },
-  { imgUrl: '/images/brand_2.svg' },
-  { imgUrl: '/images/brand_3.svg' },
-  { imgUrl: '/images/brand_4.svg' },
-  { imgUrl: '/images/brand_5.svg' },
+  { imgUrl: '/images/icons/brand_1.svg' },
+  { imgUrl: '/images/icons/brand_2.svg' },
+  { imgUrl: '/images/icons/brand_3.svg' },
+  { imgUrl: '/images/icons/brand_4.svg' },
+  { imgUrl: '/images/icons/brand_5.svg' },
 ];
 
 const postData = [
   {
-    imgUrl: '/images/post_1.jpeg',
+    imgUrl: '/images/post/post_1.jpeg',
     title: 'What services does your business provide?',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -237,7 +237,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_2.jpeg',
+    imgUrl: '/images/post/post_2.jpeg',
     title: 'Introducing the latest tech features for you',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -247,7 +247,7 @@ const postData = [
     commentUrl: '/blog/blog-details',
   },
   {
-    imgUrl: '/images/post_3.jpeg',
+    imgUrl: '/images/post/post_3.jpeg',
     title: 'The creative studio programm coming soon',
     desc: 'We provide a range of digital marketing lutions including website design.',
     postUrl: '/blog/blog-details',
@@ -277,7 +277,7 @@ export default function Home6() {
         pb="140"
         pbLg="80"
         className="cs_gray_bg"
-        style={{ backgroundImage: 'url("/images/services_bg.png")' }}
+        style={{ backgroundImage: 'url("/images/service/services_bg.png")' }}
       >
         <ServiceSection
           sectionTitleUp="Our Service List"
@@ -298,9 +298,9 @@ export default function Home6() {
         className="position-relative"
       >
         <AboutUsSection
-          thumbUrl="/images/experience_img.jpeg"
-          experienceBgUrl="/images/experience_bg.jpeg"
-          experienceIconUrl="/images/experience_icon.svg"
+          thumbUrl="/images/experience/experience_img.jpeg"
+          experienceBgUrl="/images/experience/experience_bg.jpeg"
+          experienceIconUrl="/images/experience/experience_icon.svg"
           experienceNumber="40"
           experienceTitle="Work Experience"
           sectionTitleUp="About Us"
@@ -343,8 +343,8 @@ export default function Home6() {
         className="position-relative cs_iconbox_2_wrap overflow-hidden"
       >
         <WhyChooseUsSection
-          imgUrlLeft="/images/why_choose_us_left_img.jpeg"
-          imgUrlRight="/images/why_choose_us_right_img.jpeg"
+          imgUrlLeft="/images/why_choose/why_choose_us_left_img.jpeg"
+          imgUrlRight="/images/why_choose/why_choose_us_right_img.jpeg"
           sectionTitleUp="Why Choose Us"
           sectionTitle='Developing a <span className="text-accent"> design that <br /> is easy </span> to use and <br /> navigate'
           sectionSubTitle="Providing legal advice, contract drafting, compliance
@@ -377,7 +377,7 @@ export default function Home6() {
         ptLg="75"
         pb="135"
         pbLg="75"
-        style={{ backgroundImage: `url(${'/images/testimonial_bg.jpeg'})` }}
+        style={{ backgroundImage: `url(${'/images/testimonial/testimonial_bg.jpeg'})` }}
       >
         <TestimonialSection
           sectionTitleUp="Testimonial"
@@ -431,7 +431,7 @@ export default function Home6() {
           sectionSubTitle="Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses."
           textVarient="text-white"
           className="cs_mb_40"
-          sectionImgUrl="/images/contact_img_1.png"
+          sectionImgUrl="/images/contact/contact_img_1.png"
           contactInfo={[
             {
               imgUrl: '/images/icons/contact_icon_1.svg',

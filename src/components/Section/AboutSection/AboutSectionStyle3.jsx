@@ -35,7 +35,7 @@ export default function AboutSectionStyle3({
               style={{ backgroundImage: `url(${bgImgUrl})` }}
             >
               <img
-                src="/images/experience_icon.svg"
+                src="/images/icons/experience_icon.svg"
                 alt="Icon"
                 className="cs_mb_5"
               />

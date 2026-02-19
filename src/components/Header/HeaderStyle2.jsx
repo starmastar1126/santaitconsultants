@@ -37,7 +37,7 @@ export default function HeaderStyle2({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
               <Link className="cs_site_branding" to="/">
-                <img src="/images/logo_black.svg" alt="Logo" />
+                <img src="/images/icons/logo_black.svg" alt="Logo" />
               </Link>
             </div>
             <div className="cs_main_header_center">

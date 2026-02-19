@@ -11,7 +11,7 @@ export default function PortfolioDetailsPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Project Details" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Project Details" bgUrl="/images/header/page_header_1.jpeg" />
       <section className="cs_pt_130 cs_pt_lg_80 cs_pb_93 cs_pb_lg_80">
         <div className="container">
           <div>
@@ -22,7 +22,7 @@ export default function PortfolioDetailsPage() {
               </div>
             </div>
             <img
-              src="/images/project_details_img.jpeg"
+              src="/images/project/project_details_img.jpeg"
               alt="Thumb"
               className="cs_mb_60 cs_mb_lg_40"
             />

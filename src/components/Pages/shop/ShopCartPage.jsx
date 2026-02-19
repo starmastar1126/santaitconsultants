@@ -13,7 +13,7 @@ export default function ShopCartPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Shop Cart" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Shop Cart" bgUrl="/images/header/page_header_1.jpeg" />
       <Section pt="140" ptLg="80" pb="140" pbLg="80">
         <div className="container">
           <div className="row cs_gap_y_40">
@@ -34,7 +34,7 @@ export default function ShopCartPage() {
                       <td>
                         <div className="cs_cart_table_media">
                           <img
-                            src="/images/shop/cart-product-1.jpeg"
+                            src="/images/cart/cart-product-1.jpeg"
                             alt="Thumb"
                           />
                           <h3>Awesome men T-shirt</h3>
@@ -55,7 +55,7 @@ export default function ShopCartPage() {
                       <td>
                         <div className="cs_cart_table_media">
                           <img
-                            src="/images/shop/cart-product-2.jpeg"
+                            src="/images/cart/cart-product-2.jpeg"
                             alt="Thumb"
                           />
                           <h3>Fuyure AI robot toy</h3>
@@ -76,7 +76,7 @@ export default function ShopCartPage() {
                       <td>
                         <div className="cs_cart_table_media">
                           <img
-                            src="/images/shop/cart-product-3.jpeg"
+                            src="/images/cart/cart-product-3.jpeg"
                             alt="Thumb"
                           />
                           <h3>Hemp seed shampoo</h3>
