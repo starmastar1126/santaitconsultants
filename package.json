@@ -2,7 +2,7 @@
   "name": "bizmax-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://santaitconsultants.github.io/company",
+  "homepage": "https://santaitconsultants.github.io/index",
   "dependencies": {
     "@iconify/react": "^4.1.1",
     "@testing-library/jest-dom": "^5.17.0",
