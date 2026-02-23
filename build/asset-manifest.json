@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/santaitconsultants/static/css/main.2d9320a1.css",
+    "main.js": "/santaitconsultants/static/js/main.b64b5fec.js",
+    "reactPlayerYouTube.js": "/santaitconsultants/static/js/reactPlayerYouTube.b2d732ed.chunk.js",
+    "reactPlayerSoundCloud.js": "/santaitconsultants/static/js/reactPlayerSoundCloud.420daa1f.chunk.js",
+    "reactPlayerVimeo.js": "/santaitconsultants/static/js/reactPlayerVimeo.6b6bee43.chunk.js",
+    "reactPlayerMux.js": "/santaitconsultants/static/js/reactPlayerMux.cee887fd.chunk.js",
+    "reactPlayerFacebook.js": "/santaitconsultants/static/js/reactPlayerFacebook.a6911268.chunk.js",
+    "reactPlayerStreamable.js": "/santaitconsultants/static/js/reactPlayerStreamable.81a8f061.chunk.js",
+    "reactPlayerWistia.js": "/santaitconsultants/static/js/reactPlayerWistia.e5604da6.chunk.js",
+    "reactPlayerTwitch.js": "/santaitconsultants/static/js/reactPlayerTwitch.0ca828d7.chunk.js",
+    "reactPlayerDailyMotion.js": "/santaitconsultants/static/js/reactPlayerDailyMotion.f8a6d0bc.chunk.js",
+    "reactPlayerMixcloud.js": "/santaitconsultants/static/js/reactPlayerMixcloud.01e22c09.chunk.js",
+    "reactPlayerVidyard.js": "/santaitconsultants/static/js/reactPlayerVidyard.9cfafaab.chunk.js",
+    "reactPlayerKaltura.js": "/santaitconsultants/static/js/reactPlayerKaltura.f5963a2a.chunk.js",
+    "reactPlayerFilePlayer.js": "/santaitconsultants/static/js/reactPlayerFilePlayer.dc748370.chunk.js",
+    "reactPlayerPreview.js": "/santaitconsultants/static/js/reactPlayerPreview.b7eb5ac0.chunk.js",
+    "index.html": "/santaitconsultants/index.html",
+    "static/media/hero_highlight_shape.svg": "/santaitconsultants/static/media/hero_highlight_shape.b81b8a8fbfd93493a81d.svg",
+    "static/media/video_block_text_shape.svg": "/santaitconsultants/static/media/video_block_text_shape.5aaa0cf0cb106dde8505.svg",
+    "main.2d9320a1.css.map": "/santaitconsultants/static/css/main.2d9320a1.css.map",
+    "main.b64b5fec.js.map": "/santaitconsultants/static/js/main.b64b5fec.js.map",
+    "reactPlayerYouTube.b2d732ed.chunk.js.map": "/santaitconsultants/static/js/reactPlayerYouTube.b2d732ed.chunk.js.map",
+    "reactPlayerSoundCloud.420daa1f.chunk.js.map": "/santaitconsultants/static/js/reactPlayerSoundCloud.420daa1f.chunk.js.map",
+    "reactPlayerVimeo.6b6bee43.chunk.js.map": "/santaitconsultants/static/js/reactPlayerVimeo.6b6bee43.chunk.js.map",
+    "reactPlayerMux.cee887fd.chunk.js.map": "/santaitconsultants/static/js/reactPlayerMux.cee887fd.chunk.js.map",
+    "reactPlayerFacebook.a6911268.chunk.js.map": "/santaitconsultants/static/js/reactPlayerFacebook.a6911268.chunk.js.map",
+    "reactPlayerStreamable.81a8f061.chunk.js.map": "/santaitconsultants/static/js/reactPlayerStreamable.81a8f061.chunk.js.map",
+    "reactPlayerWistia.e5604da6.chunk.js.map": "/santaitconsultants/static/js/reactPlayerWistia.e5604da6.chunk.js.map",
+    "reactPlayerTwitch.0ca828d7.chunk.js.map": "/santaitconsultants/static/js/reactPlayerTwitch.0ca828d7.chunk.js.map",
+    "reactPlayerDailyMotion.f8a6d0bc.chunk.js.map": "/santaitconsultants/static/js/reactPlayerDailyMotion.f8a6d0bc.chunk.js.map",
+    "reactPlayerMixcloud.01e22c09.chunk.js.map": "/santaitconsultants/static/js/reactPlayerMixcloud.01e22c09.chunk.js.map",
+    "reactPlayerVidyard.9cfafaab.chunk.js.map": "/santaitconsultants/static/js/reactPlayerVidyard.9cfafaab.chunk.js.map",
+    "reactPlayerKaltura.f5963a2a.chunk.js.map": "/santaitconsultants/static/js/reactPlayerKaltura.f5963a2a.chunk.js.map",
+    "reactPlayerFilePlayer.dc748370.chunk.js.map": "/santaitconsultants/static/js/reactPlayerFilePlayer.dc748370.chunk.js.map",
+    "reactPlayerPreview.b7eb5ac0.chunk.js.map": "/santaitconsultants/static/js/reactPlayerPreview.b7eb5ac0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d9320a1.css",
+    "static/js/main.b64b5fec.js"
+  ]
+}
