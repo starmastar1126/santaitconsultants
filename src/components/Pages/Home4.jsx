@@ -15,65 +15,65 @@ import { pageTitle } from '../../helpers/PageTitle.js';
 const serviceData = [
   {
     iconUrl: '/images/icons/service_icon_1.svg',
-    title: 'Accounting and Bookkeeping',
+    title: 'Software Development',
     subTitle:
-      'Services related to financial record-keeping, bookkeeping, preparation and action.',
+      'We build custom web and mobile applications that improve efficiency, enhance user experience, and support long-term business growth.',
     imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_2.svg',
-    title: 'IT Support and Consulting',
+    title: 'Cybersecurity Solutions',
     subTitle:
-      'Providing technical support, network setup, software installation system.',
+      'We protect your systems with proactive monitoring, risk assessments, threat prevention, and compliance strategies to reduce vulnerabilities.',
     imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_3.svg',
-    title: 'Marketing and Advertising',
+    title: 'Managed IT Services',
     subTitle:
-      'Services that help businesses create and execute market strategies.',
+      'We deliver reliable IT support, infrastructure management, and performance optimization to ensure secure, stable, and efficient operations.',
     imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_4.svg',
-    title: 'Human Resources',
+    title: 'Business Intelligence',
     subTitle:
-      'Assistance with HR-related tasks such as recruitment, training, performance.',
+      'We transform complex data into actionable insights through analytics, dashboards, and reporting tools that support smarter business decisions.',
     imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_1.svg',
-    title: 'Accounting and Bookkeeping',
+    title: 'Software Development',
     subTitle:
-      'Services related to financial record-keeping, bookkeeping, preparation and action.',
+      'We build custom web and mobile applications that improve efficiency, enhance user experience, and support long-term business growth.',
     imgUrl: '/images/service/service_1.jpg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_2.svg',
-    title: 'IT Support and Consulting',
+    title: 'Cybersecurity Solutions',
     subTitle:
-      'Providing technical support, network setup, software installation system.',
+      'We protect your systems with proactive monitoring, risk assessments, threat prevention, and compliance strategies to reduce vulnerabilities.',
     imgUrl: '/images/service/service_2.jpeg',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_3.svg',
-    title: 'Marketing and Advertising',
+    title: 'Managed IT Services',
     subTitle:
-      'Services that help businesses create and execute market strategies.',
+      'We deliver reliable IT support, infrastructure management, and performance optimization to ensure secure, stable, and efficient operations.',
     imgUrl: '/images/service/service_3.jfif',
     href: '/service/services-details',
   },
   {
     iconUrl: '/images/icons/service_icon_4.svg',
-    title: 'Human Resources',
+    title: 'Business Intelligence',
     subTitle:
-      'Assistance with HR-related tasks such as recruitment, training, performance.',
+      'We transform complex data into actionable insights through analytics, dashboards, and reporting tools that support smarter business decisions.',
     imgUrl: '/images/service/service_4.jpeg',
     href: '/service/services-details',
   },

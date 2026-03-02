@@ -272,7 +272,7 @@ export default function Home5() {
           grothPercentage="90"
           featureList={[
             {
-              title: 'Accounting and Bookkeeping',
+              title: 'Software Development',
               subTitle:
                 'Services related to financial record-keeping, bookkeeping.',
             },

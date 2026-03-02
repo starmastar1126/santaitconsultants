@@ -12,16 +12,16 @@ import Button from '../Button';
 import { pageTitle } from '../../helpers/PageTitle';
 
 const serviceList = [
-  { title: 'Accounting and Bookkeeping', href: '/service/services-details' },
+  { title: 'Software Development', href: '/service/services-details' },
   {
-    title: 'Marketing and Advertising',
+    title: 'Managed IT Services',
     href: '/service/marketing-and-advertising',
   },
   {
-    title: 'IT Support and Consulting',
+    title: 'Cybersecurity Solutions',
     href: '/service/IT Support and Consulting',
   },
-  { title: 'Human Resources', href: '/service/human-resources' },
+  { title: 'Business Intelligence', href: '/service/human-resources' },
   { title: 'Web Development', href: '/service/web-development' },
   { title: 'SEO & Content Writing', href: '/service/seo-content-writing' },
 ];
